@@ -3,7 +3,9 @@ In this implementation:
 - [PlatformIO Core (CLI)](https://docs.platformio.org/en/latest/core/index.html) is installed in container
 - the frameworks, tools, packages, etc. are installed in a host directory
 
-The examples are for [Podman](https://podman.io/) but can be used with [Docker](https://www.docker.com/); just write `docker` instead of `podman` (or alias it with `alias podman=docker`).
+The examples are for [Podman](https://podman.io/) but can be used with [Docker](https://www.docker.com/); just write `docker` instead of `podman` (or alias it with `alias podman=docker`) .
+
+I used this container to build projects mostly for ESP32 with Arduino on the [pioarduino community platform](https://github.com/pioarduino/platform-espressif32) .
 
 ## Container image
 
