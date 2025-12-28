@@ -87,7 +87,7 @@ podman run -it --rm -v /data/platformio:/platformio:Z -v "${PWD}":/project:Z \
         "platform=https://github.com/pioarduino/platform-espressif32/releases/download/stable/platform-espressif32.zip"
 ```
 
-These are the pre-configured [Boards](https://docs.platformio.org/en/latest/boards/index.html) - also, the list can be obtained with `pio boards` equivalent `podman run -it --rm platformio-core:latest boards`
+These are the pre-configured [Boards](https://docs.platformio.org/en/latest/boards/index.html) - also, the list can be obtained with `pio boards` equivalent `podman run -it --rm pio boards`
 
 ### Build workflow
 
